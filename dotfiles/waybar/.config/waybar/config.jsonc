@@ -1,0 +1,43 @@
+{
+  "layer": "top",
+  "position": "top",
+  "output": [
+    "DP-1"
+  ],
+  "height": 0,
+  "width": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "spacing": 5,
+  "include": [
+    "modules/groups.jsonc",
+    "modules/distro.jsonc",
+    "modules/window.jsonc",
+    "modules/workspaces.jsonc",
+    "modules/audio.jsonc",
+    "modules/language.jsonc",
+    "modules/clock.jsonc",
+    "modules/tray.jsonc",
+    "modules/notifications.jsonc",
+    "modules/connections.jsonc",
+    "modules/storage.jsonc",
+    "modules/system.jsonc",
+    "modules/tray-notify.jsonc"
+  ],
+  "modules-left": [
+    "group/distro-group",
+    "group/storage",
+    "group/system",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  "modules-right": [
+    "group/audio",
+    "hyprland/language",
+    "group/tray-group",
+    "group/connections",
+    "clock"
+  ]
+}
